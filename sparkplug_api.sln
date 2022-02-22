@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SparkPlug.Api", "sparkplug_api\SparkPlug.Api.csproj", "{3A2739FB-5603-446F-9039-C1A841A25023}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9A62F1BA-B7DA-4B59-840B-2FE0354D8B2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SparkPlug", "SparkPlug", "{FB76EE04-75DE-4F9C-B606-5275EBD4E60E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SparkPlug.Models", "SparkPlug.Models\SparkPlug.Models.csproj", "{C4E0C295-3302-4F85-954F-52B6064ACF96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SparkPlug.Services", "SparkPlug.Services\SparkPlug.Services.csproj", "{70055955-2CB4-4558-B199-A2988134C99F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A2739FB-5603-446F-9039-C1A841A25023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A2739FB-5603-446F-9039-C1A841A25023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A2739FB-5603-446F-9039-C1A841A25023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A2739FB-5603-446F-9039-C1A841A25023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E0C295-3302-4F85-954F-52B6064ACF96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E0C295-3302-4F85-954F-52B6064ACF96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E0C295-3302-4F85-954F-52B6064ACF96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E0C295-3302-4F85-954F-52B6064ACF96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70055955-2CB4-4558-B199-A2988134C99F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70055955-2CB4-4558-B199-A2988134C99F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70055955-2CB4-4558-B199-A2988134C99F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70055955-2CB4-4558-B199-A2988134C99F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A2739FB-5603-446F-9039-C1A841A25023} = {9A62F1BA-B7DA-4B59-840B-2FE0354D8B2A}
+		{9A62F1BA-B7DA-4B59-840B-2FE0354D8B2A} = {FB76EE04-75DE-4F9C-B606-5275EBD4E60E}
+		{C4E0C295-3302-4F85-954F-52B6064ACF96} = {9A62F1BA-B7DA-4B59-840B-2FE0354D8B2A}
+		{70055955-2CB4-4558-B199-A2988134C99F} = {9A62F1BA-B7DA-4B59-840B-2FE0354D8B2A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5930DF98-DD5F-4A49-8DF6-61B1ADDAB0EE}
+	EndGlobalSection
+EndGlobal
