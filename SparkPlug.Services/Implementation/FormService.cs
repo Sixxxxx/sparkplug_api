@@ -12,7 +12,7 @@ namespace SparkPlug.Services.Implementation
     {
         private readonly IMongoCollection<CustomerForm> _formCollection;
         private readonly IMapper _mapper;
-        private readonly IServiceFactory _serviceFactory;
+      
         private readonly DatabaseSettings _databaseSettings;
 
         public FormService(DatabaseSettings databaseSettings, IMongoClient mongoClient, IMapper mapper)
