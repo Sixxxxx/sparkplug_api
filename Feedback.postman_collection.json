@@ -1,0 +1,166 @@
+{
+	"info": {
+		"_postman_id": "7559bd3b-e9e4-4864-b0ca-e66ae5723c38",
+		"name": "Feedback",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Feedback",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44321/api/Form",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44321",
+					"path": [
+						"api",
+						"Form"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Feedback",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44321/api/Form/6214a7c42b566ffd92b01a20",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44321",
+					"path": [
+						"api",
+						"Form",
+						"6214a7c42b566ffd92b01a20"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Feedback",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "customerName",
+							"value": "Ugochukwu Udeh",
+							"type": "default"
+						},
+						{
+							"key": "customerEmail",
+							"value": "jcuudeh@gmail.com",
+							"type": "default"
+						},
+						{
+							"key": "customerMessage",
+							"value": "Arise, arise, Riders of Théoden!\nFell deeds awake: fire and slaughter!\nSpear shall be shaken, shield be splintered,\na sword-day, a red day, ere the sun rises!\nRide now, ride now! Ride to Gondor!",
+							"type": "default"
+						},
+						{
+							"key": "Id",
+							"value": "6214a7c42b566ffd92b01a20",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:44321/api/Form",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44321",
+					"path": [
+						"api",
+						"Form"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Feedback",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "Id",
+							"value": "6214a7c42b566ffd92b01a20",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:44321/api/Form/6214a7c42b566ffd92b01a20",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44321",
+					"path": [
+						"api",
+						"Form",
+						"6214a7c42b566ffd92b01a20"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Feedback",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "customerName",
+							"value": "Ugochukwu Udeh",
+							"type": "default"
+						},
+						{
+							"key": "customerEmail",
+							"value": "jcuudeh@gmail.com",
+							"type": "default"
+						},
+						{
+							"key": "customerMessage",
+							"value": "Anakin Skywalker: Ahsoka, I'm sorry I didn't tell you this earlier, but you won't be coming along.\n\nAhsoka Tano: Not coming? But you're breaking into Citadel. No one's ever done it.\n\nAnakin Skywalker: The Citadel wasn't designed to hold common criminals. It was created to hold Jedi if any of us lost our way. It's not a place for Padawans.\n\nAhsoka Tano: You're just being protective again. That's not fair. How am I supposed to learn if you won't let me share the risk?\n\nAnakin Skywalker: This isn't a mission for learning. You either do or die. And that's not a risk I'm willing to share.",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:44321/api/Form",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44321",
+					"path": [
+						"api",
+						"Form"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
